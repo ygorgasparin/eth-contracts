@@ -15,10 +15,9 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 /**
- * @dev This contract is a variation of https://eips.ethereum.org/EIPS/eip-721[ERC721] with the habilit
- * to pre-mint all the NTF's at contract creation. 
- * You need to inform how many NFT the contract should mint and after that, all of then will be assigned to the
- * contract owner. 
+ * @dev This contract is a variation of https://eips.ethereum.org/EIPS/eip-721[ERC721] with 
+ * the possibility to pre-mint all the NTF's at contract creation. You need to inform how many 
+ * NFT the contract should mint and after that, all of then will be assigned to the contract owner. 
  *
  * Mint by this way is less expansive than mint one by one
  *
